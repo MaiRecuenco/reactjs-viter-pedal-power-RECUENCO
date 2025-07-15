@@ -16,8 +16,7 @@ const Home = () => {
             <div className="relative h-screen">
               <div className="absolute inset-0 bg-black opacity-40"></div>
               <img
-                src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                alt="Cycling hero"
+                src="./images/home-banner.webp"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center text-center px-4">
@@ -62,9 +61,7 @@ const Home = () => {
               <div className="grid md:grid-cols-2 gap-12">
                 {/* Road Biking Card */}
                 <CardFeature
-                  image={
-                    "https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                  }
+                  image={"./images/feature-1.webp"}
                   alt={"Road biking"}
                   title={"Road Biking"}
                   description={"Speed, endurance, and the open road"}
@@ -74,55 +71,13 @@ const Home = () => {
 
                 {/* Mountain Biking Card */}
                 <CardFeature
-                  image={
-                    "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                  }
+                  image={"./images/feature-2.webp"}
                   alt={"Road biking"}
                   title={"Mountain biking"}
                   description={" Trails, adrenaline, and outdoor adventure"}
                   toLink={"/mountain-biking"}
                   btnTextColor={"text-blue-700"}
                 />
-
-                {/* <div className="relative group overflow-hidden rounded-2xl shadow-xl h-96">
-                  <img
-                    src="https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                    alt="Road biking"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
-                  <div className="absolute bottom-0 left-0 p-8 text-white">
-                    <h3 className="text-3xl font-bold mb-2">Road Biking</h3>
-                    <p className="mb-4">Speed, endurance, and the open road</p>
-                    <Link
-                      to="/road-biking"
-                      className="inline-block bg-white text-green-700 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition"
-                    >
-                      Explore →
-                    </Link>
-                  </div>
-                </div> */}
-
-                {/* <div className="relative group overflow-hidden rounded-2xl shadow-xl h-96">
-                  <img
-                    src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                    alt="Mountain biking"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
-                  <div className="absolute bottom-0 left-0 p-8 text-white">
-                    <h3 className="text-3xl font-bold mb-2">Mountain Biking</h3>
-                    <p className="mb-4">
-                      Trails, adrenaline, and outdoor adventure
-                    </p>
-                    <Link
-                      to="/mountain-biking"
-                      className="inline-block bg-white text-blue-700 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition"
-                    >
-                      Explore →
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
 
@@ -141,9 +96,7 @@ const Home = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Event 1 */}
                   <CardEvent
-                    image={
-                      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/event-1.webp"}
                     alt={"Alpine Challenge"}
                     title={"Alpine Challenge"}
                     location={"Road"}
@@ -155,9 +108,7 @@ const Home = () => {
 
                   {/* Event 2 */}
                   <CardEvent
-                    image={
-                      "https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/event-2.webp"}
                     alt={"Trail Masters"}
                     title={"Trail Masters"}
                     location={"Mountain"}
@@ -169,9 +120,7 @@ const Home = () => {
 
                   {/* Event 3 */}
                   <CardEvent
-                    image={
-                      "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/event-3.webp"}
                     alt={"Urban Sprint"}
                     title={"Urban Sprint"}
                     location={"Road"}

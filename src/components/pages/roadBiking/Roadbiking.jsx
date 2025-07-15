@@ -2,10 +2,9 @@ import React from "react";
 import Footer from "../../partials/Footer";
 import Header from "../../partials/Header";
 import CardBanner from "../../partials/CardBanner";
-import CardTrail from "../../partials/CardRoute";
 import CardGear from "../../partials/CardGear";
-import CardTip from "../../partials/CardRoute";
 import CardRoute from "../../partials/CardRoute";
+import CardTip from "../../partials/CardTip";
 const RoadBiking = () => {
   return (
     <>
@@ -18,9 +17,7 @@ const RoadBiking = () => {
               title={"Road Biking"}
               alt={"Road Biking hero"}
               description={"Speed, endurance, and the freedom of the open road"}
-              image={
-                "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-              }
+              image={"./images/road-banner.webp"}
               bgColor={"bg-green-900"}
             />
 
@@ -38,9 +35,7 @@ const RoadBiking = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Route 1 */}
                   <CardRoute
-                    image={
-                      "https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/feature-1.webp"}
                     alt={"Coastal Highway"}
                     route={"Coastal Highway"}
                     distance={"75 miles"}
@@ -50,9 +45,7 @@ const RoadBiking = () => {
 
                   {/* Route 2 */}
                   <CardRoute
-                    image={
-                      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/event-1.webp"}
                     alt={"Mountain Pass"}
                     route={"Mountain Pass"}
                     distance={"42 miles"}
@@ -62,9 +55,7 @@ const RoadBiking = () => {
 
                   {/* Route 3 */}
                   <CardRoute
-                    image={
-                      "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    image={"./images/route-3.webp"}
                     alt={"Countryside Loop"}
                     route={"Countryside Loop"}
                     distance={"30 miles"}
